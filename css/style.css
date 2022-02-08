@@ -383,7 +383,7 @@ button
   text-transform: uppercase;
   -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
           box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
-  color: #20202a;
+  color: #20222a;
   background: #FFC107;
   letter-spacing: 1.5px;
   font-weight: 600;
@@ -525,7 +525,7 @@ app marcup
   left: 0;
   width: calc(100vw - 30px);
   height: calc(100vh - 30px);
-  background: #20202a;
+  background: #20222a;
   z-index: 999999;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -594,7 +594,7 @@ app marcup
   z-index: 99;
   width: 100%;
   height: 70px;
-  background: #20202a;
+  background: #20222a;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   padding: 0 30px;
@@ -631,7 +631,7 @@ app marcup
   /* ----- menu bar ----- */
 }
 .art-app .art-app-wrapper .art-app-container .art-info-bar {
-  background: #20202a;
+  background: #20222a;
   width: 290px;
   min-width: 290px;
   height: calc(100vh - 30px);
@@ -703,7 +703,7 @@ app marcup
   opacity: 0.7;
 }
 .art-app .art-app-wrapper .art-app-container .art-menu-bar {
-  background: #20202a;
+  background: #20222a;
   width: 230px;
   height: calc(100vh - 30px);
   position: absolute;
@@ -1359,7 +1359,7 @@ menu bar
   pointer-events: none;
   -webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
-  background: #20202a;
+  background: #20222a;
   -webkit-filter: brightness(95%);
           filter: brightness(95%);
   max-height: 0;
@@ -1816,7 +1816,7 @@ content
   padding: 5px 15px;
   font-size: 10px;
   margin-top: 5px;
-  background: #20202a;
+  background: #20222a;
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1970,7 +1970,7 @@ content
 .art-timeline .art-timeline-content .art-card-header .art-right-side .art-date {
   color: #646466;
   margin-left: auto;
-  background: #20202a;
+  background: #20222a;
   padding: 5px 15px;
   border-radius: 15px;
   -webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -2015,7 +2015,7 @@ content
   padding-left: 15px;
   padding-top: 15px;
   height: 150px;
-  border-left: solid 50px #20202a;
+  border-left: solid 50px #20222a;
 }
 .art-form-field textarea.art-active {
   border-color: #FFC107;
@@ -2031,7 +2031,7 @@ content
 .art-contact-form .art-input.art-active + label,
 .art-contact-form .art-input:focus + label {
   background: #FFC107;
-  color: #20202a;
+  color: #20222a;
 }
 
 .art-form-field {
@@ -2045,7 +2045,7 @@ content
   position: absolute;
   height: 50px;
   width: 50px;
-  background: #20202a;
+  background: #20222a;
   top: 0;
   left: 0;
   padding: 0 15px;
@@ -2083,7 +2083,7 @@ content
           transform: scale(0);
   text-transform: uppercase;
   color: #fafafc;
-  background: #20202a;
+  background: #20222a;
   letter-spacing: 1.5px;
   font-weight: 600;
   -webkit-box-pack: center;
@@ -2397,7 +2397,7 @@ portfolio
   color: #646466;
   margin-left: auto;
   display: inline;
-  background: #20202a;
+  background: #20222a;
   padding: 5px 15px;
   border-radius: 15px;
   -webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
