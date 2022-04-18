@@ -2,10 +2,7 @@
 
 Name: 		Maksym Marienko
 Version:  1.0
-Author:		Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
-
-p.s. I am available for Freelance hire (UI design, web development). mail: miller.themes@gmail.com
+Author:		Nazar Miller
 
 ------------------------------------------- */
 $(function() {
@@ -119,7 +116,7 @@ $(function() {
     }
   });
 
-  bar.animate(1);
+  bar.animate(0.9);
 
   var bar = new ProgressBar.Circle(circleprog2, {
     strokeWidth: 7,
@@ -137,7 +134,7 @@ $(function() {
     }
   });
 
-  bar.animate(1);
+  bar.animate(0.9);
 
   var bar = new ProgressBar.Circle(circleprog3, {
     strokeWidth: 7,
@@ -155,7 +152,7 @@ $(function() {
     }
   });
 
-  bar.animate(0.7);
+  bar.animate(0.9);
 
   var bar = new ProgressBar.Line(lineprog1, {
     strokeWidth: 1.72,
