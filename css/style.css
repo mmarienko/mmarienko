@@ -672,6 +672,9 @@ app marcup
 }
 .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame .art-scroll-frame .scroll-content {
   padding: 240px 0 50px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .art-app .art-app-wrapper .art-app-container .art-content {
   position: relative;
@@ -1614,18 +1617,17 @@ content
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
   opacity: 0;
   position: relative;
-}
-.art-counter-frame .art-counter-box {
-  min-width: 60px;
 }
 .art-counter-frame .art-counter-box .art-counter {
   color: #FFC107;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
+  margin-left: 30px;
 }
 .art-counter-frame .art-counter-box .art-counter-plus {
   margin-left: 3px;
@@ -2413,6 +2415,13 @@ portfolio
   -webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   font-size: 10px;
+}
+
+.clutch-widget {
+  margin-top: auto;
+  margin-bottom: 0;
+  width: max-content;
+  transform: scale(0.65) translateX(-46px);
 }
 
 /* ----- fancybox customization ----- */
