@@ -164,7 +164,7 @@ h6 {
 /* ----- suptitle ----- */
 .art-el-suptitle {
   margin-top: 5px;
-  color: #646466;
+  color: #848484;
   font-style: italic;
   font-size: 11px;
 }
@@ -813,10 +813,10 @@ app marcup (after 920px)
     display: flex;
   }
   .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame .art-info-bar-header .art-info-bar-btn {
-    -webkit-transform: translateX(70px);
-            transform: translateX(70px);
-    -webkit-transition: 0.4s ease-in-out;
-    transition: 0.4s ease-in-out;
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+    -webkit-transition: 0.55s ease-in-out;
+    transition: 0.55s ease-in-out;
   }
   .art-app .art-app-wrapper .art-app-container .art-info-bar.art-active .art-info-bar-frame .art-info-bar-btn {
     -webkit-transform: translateX(0);
@@ -827,7 +827,7 @@ app marcup (after 920px)
     width: 100vw;
     height: 100vh;
     padding-right: 0;
-    padding-top: 70px;
+    padding-top: 50px;
   }
   .art-app .art-app-wrapper .art-app-container .art-content .art-scroll-frame {
     height: calc(100vh - 70px);
@@ -1980,7 +1980,7 @@ content
   margin-bottom: 15px;
 }
 .art-timeline .art-timeline-content .art-card-header .art-right-side .art-date {
-  color: #646466;
+  color: #848484;
   margin-left: auto;
   background: #20222a;
   padding: 4px 11px;
@@ -2662,6 +2662,10 @@ content (after 768px)
     margin-right: auto;
   }
 
+  .art-counter-frame {
+    justify-content: space-between;
+  }
+
   .art-grid.art-grid-2-col .art-grid-item {
     width: 100%;
   }
@@ -2836,6 +2840,9 @@ html.is-animating .fade-left {
   .transition-fade .art-price.art-popular-price {
     -webkit-transform: scale(1);
             transform: scale(1);
+  }
+  .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame .art-scroll-frame .scroll-content {
+    height: auto;
   }
 }
 
